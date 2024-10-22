@@ -24,8 +24,8 @@ public class SpellCheck {
       // Read the dictionary and the document
 
       Collection<String> dictionaryWords = readDictionary("C:\\Users\\t00244535\\Desktop\\words");
-      //Set<String> documentWords = readWords("alice30.txt");
-      Set<String> documentWords = readWords("C:\\Users\\t00244535\\Desktop\\war-and-peace.txt"); // file to be spell-checked
+      Set<String> documentWords = readWords("alice30.txt");
+      //Set<String> documentWords = readWords("C:\\Users\\t00244535\\Desktop\\war-and-peace.txt"); // file to be spell-checked
 
       // Print all words that are in the document but not the dictionary
       int numberMisspeltWords = 0;

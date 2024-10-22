@@ -7,7 +7,7 @@ public class Lab5 {
         
         List<String> arrList = new ArrayList();
         List<String> linkList = new LinkedList();
-        int listSize = 10; // 10 is first value, then 100, etc
+        int listSize = 100000; // 10 is first value, then 100, etc
 
         int reps = 1000000;  // you may need to experiment with value for reps
 
